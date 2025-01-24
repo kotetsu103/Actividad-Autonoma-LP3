@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymelaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Exitoso</title>
+</head>
+<body>
+<div>
+    <h2>Registro exitoso</h2>
+    <span>Nombre: </span><span th:text="${entidad.nombre}"></span>
+    <br>
+    <span>Email: </span><span th:text="${entidad.email}"></span>
+    <br>
+    <span>Password: </span><span th:text="${entidad.password}"></span>
+    <br>
+    <span>Domicilio: </span><span th:text="${entidad.domicilio}"></span>
+    <br>
+    <span>Fecha de nacimiento: </span><span th:text="${entidad.fecha_nacimiento}"></span>
+    <br>
+</div>
+</body>
+</html>
